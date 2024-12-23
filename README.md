@@ -3,6 +3,7 @@
 
 SKRIPT MINING STEP BY STEP
 -----------------------------------------------------------------------------------------------
+
 yes | pkg update && pkg upgrade
 
 
@@ -12,11 +13,7 @@ yes | pkg install libjansson wget nano
 
 mkdir ccminer && cd ccminer
 
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/ccminer
-
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/config.json
-
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/start.sh
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/ccminer && wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/config.json && wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/start.sh
 
 -------------------------------------------------------------------------------------------------
 
@@ -40,4 +37,4 @@ nano config.json
 CTRL + c
 
 -------------------------------------------------------------------------------------------------
-R9hxKbE9x727VWatwHQB6HDLTjseGCgRHh
+RHAts2xhzUJThtXEfFHtA6tihSphVXhUL8.CPExxte
